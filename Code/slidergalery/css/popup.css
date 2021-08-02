@@ -147,8 +147,6 @@
 }
 
 
-
-
 .img-lable{
     margin: 315px auto 0 55px;
     position: fixed;
@@ -253,5 +251,14 @@ button{
     padding-top: 2.5%;
 }
 
+.sideasign{
+    background: url("../mark/SideA Classic.png");
+    background-size: 100px 45px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 45px;
+    position: fixed;
+    margin: 317px 170px 0px;
+}
 
 
