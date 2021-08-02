@@ -1,0 +1,206 @@
+.popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    z-index: 2;
+    display: none;
+}
+.popup .popup-content{
+    margin: 7% auto 0 auto;
+    width: 1536px;
+    height: 716px;
+    background-color: transparent;
+
+}
+
+.img-container img{
+    width: 768px;
+    height: 438px;
+    position: fixed;
+}
+
+.info{
+    height: 262px;
+    background: black;
+    z-index: 4;
+}
+
+.img-info{
+    margin-left: 768px;
+    width:768px;
+    height: 438px;
+    background: black;
+    position: relative;
+    z-index: 4;
+}
+
+.img-title{
+    margin: 55px;
+    position: fixed;
+    padding-top: 30px;
+    width:654px;
+    height: auto;
+    background: transparent;
+    overflow: scroll;
+    white-space: nowrap;
+    z-index: 4;
+}
+
+
+.img-text p{
+   font-family: Geometria;
+    font-size: 40px;
+    display: table-cell;
+    margin: 1px;
+    z-index: 4;
+
+}
+
+.img-title{
+    margin: 55px;
+    position: fixed;
+    padding-top: 30px;
+    width:auto;
+    height: 200px;
+    background: transparent;
+    overflow: auto;
+    z-index: 4;
+}
+
+
+.img-text p{
+    font-family: Geometria;
+    font-size: 100px;
+    display: table-cell;
+    color: white;
+    z-index: 4;
+    font-weight: bold;
+
+}
+
+
+
+.img-type{
+    margin: 171px auto 0 55px;
+    position: fixed;
+    width:auto;
+    height: 40px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 4;
+}
+
+
+.img-secondtext p{
+    font-family: Geometria;
+    font-size: 30px;
+    display: table-cell;
+    color: white;
+    z-index: 4;
+
+}
+
+.img-secondtext b{
+    font-family: Geometria;
+    font-size: 30px;
+    display: table-cell;
+    color: white;
+    z-index: 4;
+
+}
+
+
+.img-author{
+    margin: 241px auto 0 55px;
+    position: fixed;
+    width:auto;
+    height: 40px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 4;
+}
+
+
+.img-thirdtext p{
+    font-family: Geometria;
+    font-size: 30px;
+    display: table-cell;
+    color: white;
+    z-index: 4;
+
+}
+
+.img-thirdtext b{
+    font-family: Geometria;
+    font-size: 30px;
+    display: table-cell;
+    color: white;
+    z-index: 4;
+
+}
+
+.img-textblock{
+    margin-top: 21px;
+    width:1536px;
+    height: 210px;
+    background: black;
+    position: relative;
+    z-index: 4;
+
+}
+
+.img-textinfo{
+    position: fixed;
+    width:1420px;
+    height: auto;
+    background: black;
+    overflow: auto;
+    z-index: 4;
+
+}
+
+
+
+.img-textinfo p{
+    font-family: Geometria;
+    font-size: 16px;
+    line-height: 30px;
+    display: table-cell;
+    color: white;
+    z-index: 4;
+    border-bottom: 60px;
+}
+
+.textlimit {
+   width: 1400px ;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    z-index: 4;
+
+}
+
+.llenn{
+    display: none;
+}
+
+
+.popupclosebutton{
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    position: absolute;
+}
+
+button{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
