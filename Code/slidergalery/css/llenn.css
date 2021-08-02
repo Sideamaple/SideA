@@ -1,6 +1,10 @@
 .img-llenn {
     background:url("../../../1st Galery of Side A/Galery/Grups/Galery/Llenn.jpg");
-    background-size: contain;
+    background-size: cover;
     width: 768px;
     height: 438px;
+}
+
+.imgpaddigllenn{
+    padding-top: 4.65%;
 }

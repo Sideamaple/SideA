@@ -1,6 +1,10 @@
 .img-sinon {
     background:url("../../../1st Galery of Side A/Galery/Grups/Galery/sinon.jpg");
-    background-size: contain;
+    background-size: cover;
     width: 768px;
     height: 438px;
+}
+
+.imgpaddigsinon{
+    padding-top: 1%;
 }

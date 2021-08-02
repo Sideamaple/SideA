@@ -1,6 +1,10 @@
 .img-katori {
     background:url("../../../1st Galery of Side A/Galery/Grups/Galery/katori.jpg");
-    background-size: contain;
+    background-size: cover;
     width: 768px;
     height: 438px;
+}
+
+.imgpaddigkatori{
+    padding-top: 4.7%;
 }
