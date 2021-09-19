@@ -9,6 +9,11 @@
     display: none;
 
 }
+
+body{
+    overflow: auto;
+}
+
 .popup .popup-content{
     margin: 5% auto 0 auto;
     width: 1536px;

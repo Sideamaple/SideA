@@ -77,7 +77,7 @@
 
 
 
-::-webkit-scrollbar-button {
+/*::-webkit-scrollbar-button {
 	position: absolute;
 background-repeat:no-repeat;
 width:0;
@@ -107,7 +107,7 @@ height:0
 ::-webkit-scrollbar{
 width: 8px;
 }
-
+*/
 
 .Block{
 	padding-top: 99px;
@@ -197,6 +197,7 @@ div p img:hover {
 }
 
 
+
 .text{
 	padding-top: 14%;
 	padding-bottom: 8%;
@@ -260,6 +261,7 @@ div p img:hover {
 		font-size:24px;
 		padding-top: 10px;
 		padding-bottom: 10px;
+
 
 
 	}
