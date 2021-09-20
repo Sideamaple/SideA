@@ -77,7 +77,7 @@
 
 
 
-/*::-webkit-scrollbar-button {
+::-webkit-scrollbar-button {
 	position: absolute;
 background-repeat:no-repeat;
 width:0;
@@ -107,7 +107,7 @@ height:0
 ::-webkit-scrollbar{
 width: 8px;
 }
-*/
+
 
 .Block{
 	padding-top: 99px;
