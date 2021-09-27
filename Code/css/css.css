@@ -58,11 +58,11 @@
 
 
 	.footertext{
-   		 position: fixed;
+		position: fixed;
 		left:0;
 		bottom: 0;
 		width: 100%;
-		background-color: black;
+		background-color: transparent;
 		font-family: Geometria ;
 		text-align: center;
 		font-weight: normal;
@@ -118,15 +118,24 @@ width: 8px;
 
 
 .scroll  { 
-	margin: 0 20%;
+	margin: 0 20% 0 20%;
+	padding: 10% 0px;
 
 }
 
 .scroll div img {
-	width: 1083px;
-	height: 609px ;
-	padding: 185px 0px;
+	/*width: 1200px;*/
+	/*height: 675px ;*/
+	width: 100%;
+	height: 100% ;
 
+
+
+}
+
+.scroll-scale {
+	width: 90%;
+	height: 90%;
 
 }
 
@@ -139,7 +148,7 @@ div p img:hover {
 	border: 3px solid green;
 }
 
-.Background
+.Background1
 {
 	background-image: url("../../1st Galery of Side A/Galery/Background/sakura.jpg" ) ;
 	background-repeat: no-repeat;
@@ -292,26 +301,38 @@ div p img:hover {
 
 	.next {
 		right: 0;
-		margin: 0 -245px;
+		margin: 0 -200px;
 		content: url("../../1st Galery of Side A/Galery/Signs/Right.ico");
 	}
 	.next:hover{
 		right: 0;
-		margin: 0 -245px;
+		margin: 0 -200px;
 		content: url("../../1st Galery of Side A/Galery/Signs/Right.ico");
 		opacity: 70%;
 	}
 
 	.prev {
 		left: 0;
-		margin: 0 -245px;
+		margin: 0 -200px;
 		content: url("../../1st Galery of Side A/Galery/Signs/Left.ico");
 	}
 
 	.prev:hover {
 		left: 0;
-		margin: 0 -245px;
+		margin: 0 -200px;
 		content: url("../../1st Galery of Side A/Galery/Signs/Left.ico");
 		opacity: 70%;
 	}
+
+	.scroll-style {
+		pointer-events: none;
+	}
+
+
+    .footer-copyright {
+		background-color: #bc1212;
+		height: 1080px;
+		background-repeat: repeat-y;
+        position: relative;
+    }
 
